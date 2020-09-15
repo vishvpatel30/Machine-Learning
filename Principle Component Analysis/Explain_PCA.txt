@@ -1,0 +1,53 @@
+Dataset: Iris Dataset
+
+Preamble: The main idea of principal component analysis (PCA) is to reduce the dimensionality of a data set consisting of many variables correlated with each other, while retaining the variation present in the dataset, up to the maximum extent. It is done by transforming the variables to a new set of variables which are known as the principal components (or simply, the PCs) and are orthogonal, ordered such that the retention of variation present in the original variables decreases as we move down in the order. So, in this way, the 1st principal component retains maximum variation that was present in the original components.
+
+Problem: In this section we will implement PCA with the help of Python's Scikit-Learn library. We will follow the classic machine learning pipeline where we will first import libraries and dataset, perform exploratory data analysis and preprocessing, perform PCA to find out optimal number of features, and finally train our models, make predictions and evaluate accuracies.
+
+Exercise I: Manually calculate Principal Component Analysis using a NumPy functions.
+
+Exercise II: Calculate a Principal Component Analysis on a dataset using the PCA() class in the scikit-learn library.
+
+1. Steps: Create a Dataset (matrix of size 3*3).
+
+2. Create the PCA instance
+
+3. Fit on data
+
+4. Evaluate values and vectors
+
+5. Project data into a subspace using transform () function.
+
+Exercise III: Complete the following template to predict and evaluate accuracies using only optimal number of features calculated through PCA.
+
+# import suitable libraries
+
+# import Dataset
+
+#Preprocessing(Hint: Divide the dataset into a feature set and corresponding labels.)
+
+(Also divide dataset into training and test set)
+
+#Normalize feature set.( Hint: StandardScaler() function from Scikit-learn Library)
+
+#Perform PCA
+
+( Hint: Initialize the PCA class by passing the number of components to the constructor.
+
+Call the fit( ) and then transform methods by passing the feature set to these methods. )
+
+#Train the model
+
+#Predict and Evaluate accuracy
+
+Exercise IV: Based on the code, do the following:
+
+1. Find out total Number of Principal Components.
+
+2. Study explained_variance_ratio_ and write its function.
+
+3. Calculate explained_variance_ratio_ of each components and plot the accuracy.
+
+4. Report which feature(s) yield/s maximum accuracy.
+
+References: 1. https://www.kaggle.com/arshid/iris-flower-dataset 2. https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.PCA.html

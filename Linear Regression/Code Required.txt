@@ -1,0 +1,11 @@
+Aim: Write a script to implement linear Regression model for the given Bangalore housing dataset.
+
+Dataset: Bangalore housing dataset
+
+Exercise 1: Train the linear regression model and Plot the best fit regression line for the test cases.
+
+Exercise 2: Calculate mean square error and r2 score.
+
+Exercise 3: Plot the Correlation matrix and extract important features (highly correlated features for the prediction). Also check if these variables are independent to each other?
+
+Dataset Reference: https://www.kaggle.com/amitabhajoy/bengaluru-house-price-data
